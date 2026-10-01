@@ -2,7 +2,7 @@
 
 API REST desenvolvida em Node.js para uma plataforma de apostas baseada no jogo Campo Minado.
 
-## Integrantes
+## Autor
 
 - André
 
@@ -189,3 +189,15 @@ Encerra a partida e credita o prêmio ao saldo do usuário.
 - Tabuleiro 5x5 com 5 bombas e 20 diamantes gerados aleatoriamente
 - Fórmula do prêmio: `valorAposta × (1 + diamantes × 0.33)`
 - Posição já revelada não pode ser escolhida novamente
+
+- ## Observação
+
+Projeto criado para estudo de desenvolvimento de APIs REST. Não utiliza dinheiro real.
+
+## Melhorias futuras
+
+- Autenticação com JWT e proteção das rotas de usuário e de jogo
+- Rota de redefinição de senha segura
+- Validação de que cada usuário só acesse os próprios dados
+- Testes automatizados
+- Documentação dos endpoints com Swagger
